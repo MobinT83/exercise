@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>سبد خرید</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <!-- 1 -->
+    <div
+      class="product bg-gray-800 rounded-lg shadow-md text-orange-600"
+      data-id="1"
+      data-price="20000"
+      data-name="160CP"
+    >
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">160 سی پی</h3>
+        <p class="text-sm mt-1">بسته 160 سی پی کالاف دیوتی موبایل</p>
+        <div class="action mt-3 flex justify-between items-center">
+          <span class="font-bold text-orange-600">20,000 تومان</span>
+          <button
+            class="buy-btn bg-orange-500 text-white px-3 py-1.5 rounded text-sm hover:bg-orange-600 transition-colors"
+          >
+            خرید
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--  2 -->
+    <div
+      class="product bg-gray-800 rounded-lg shadow-md mt-1 text-orange-600"
+      data-id="2"
+      data-price="15000"
+      data-name="80CP"
+    >
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">80 سی پی</h3>
+        <p class="text-sm mt-1">بسته 80 سی پی کالاف دیوتی موبایل</p>
+        <div class="action mt-3 flex justify-between items-center">
+          <span class="font-bold text-orange-600">15,000 تومان</span>
+          <button
+            class="buy-btn bg-orange-500 text-white px-3 py-1.5 rounded text-sm hover:bg-orange-600 transition-colors"
+          >
+            خرید
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div
+      class="product bg-gray-800 rounded-lg shadow-md mt-1 text-orange-600"
+      data-id="3"
+      data-price="30000"
+      data-name="200CP"
+    >
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">200 سی پی</h3>
+        <p class="text-sm mt-1">بسته 200 سی پی کالاف دیوتی موبایل</p>
+        <div class="action mt-3 flex justify-between items-center">
+          <span class="font-bold text-orange-600">30,000 تومان</span>
+          <button
+            class="buy-btn bg-orange-500 text-white px-3 py-1.5 rounded text-sm hover:bg-orange-600 transition-colors"
+          >
+            خرید
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="cart-summary"
+      class="cart bg-orange-500 p-4 shadow-lg color-gray-800 mt-1 rounded-lg"
+    >
+      <h2 class="font-bold">سبد خرید</h2>
+      <ul class="font-bold" id="cart-list"></ul>
+      <p>مجموع: <span class="font-font" id="total-price">۰</span></p>
+    </div>
+
+    <script type="module" src="shop.js"></script>
+  </body>
+</html>
